@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774530465329,
+  "lastUpdate": 1774531120630,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -31,6 +31,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0166608568454938",
             "extra": "mean: 5.489132312000001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16308584+Jekannadar@users.noreply.github.com",
+            "name": "Constantin Chaumet",
+            "username": "Jekannadar"
+          },
+          "committer": {
+            "email": "16308584+Jekannadar@users.noreply.github.com",
+            "name": "Constantin Chaumet",
+            "username": "Jekannadar"
+          },
+          "distinct": true,
+          "id": "fa033afa344d0e57b2124cb75462519e69b2d6e6",
+          "message": "Initial commit",
+          "timestamp": "2026-03-26T14:16:55+01:00",
+          "tree_id": "0b2d9a2dc7db7e5d742a487994e49e727aa99ae4",
+          "url": "https://github.com/cls-python/cosy-luigi/commit/fa033afa344d0e57b2124cb75462519e69b2d6e6"
+        },
+        "date": 1774531120413,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.17660893529147142,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029320909828611706",
+            "extra": "mean: 5.662227668999999 sec\nrounds: 5"
           }
         ]
       }
