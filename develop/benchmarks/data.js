@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774864795259,
+  "lastUpdate": 1774864975601,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -205,6 +205,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.014362709256400263",
             "extra": "mean: 5.764585735400002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16308584+Jekannadar@users.noreply.github.com",
+            "name": "Constantin Chaumet",
+            "username": "Jekannadar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2f6731a737616e060c6e11b47a08240e15aa9822",
+          "message": "Update docs generation for examples, add additional example (#1)\n\n* Update docs generation for examples, add additional example\n\n* Add missing image files\n\n* bugfix: re-enable commenting with benchmarks",
+          "timestamp": "2026-03-30T12:02:04+02:00",
+          "tree_id": "900db799fe604770646e95067de9b33c50f9f365",
+          "url": "https://github.com/cls-python/cosy-luigi/commit/2f6731a737616e060c6e11b47a08240e15aa9822"
+        },
+        "date": 1774864975344,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.21373351946687932,
+            "unit": "iter/sec",
+            "range": "stddev: 0.042452284886531515",
+            "extra": "mean: 4.678723311599997 sec\nrounds: 5"
           }
         ]
       }
