@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775117866085,
+  "lastUpdate": 1775118017147,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -344,6 +344,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.02901652472891413",
             "extra": "mean: 6.022023311999999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16308584+Jekannadar@users.noreply.github.com",
+            "name": "Constantin Chaumet",
+            "username": "Jekannadar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9ed793f8f3af65b0307de71539502c87306df4e6",
+          "message": "Add two more examples, Add syntactic sugar for defining repositories (#2)\n\n* Add two more examples, Add syntactic sugar for defining repositories\n\n* Add README for getting_started\n\n* Add test for new repo-creation sugar\n\n* MyPy typing for flatten doesn't recursively resolve\n\n* Update typing for CoSyLuigiRepo.luigi_repo to set, add additional test cases for inheritance layers\n\n* Format added features, changed typing to be compatible with Python 3.10\n\n* Missing FMT for test_abstract_variant_expansion.py\n\n* Update test_heterogeneous_repo_input.py to account for typing change from CoSyLuigiRepo\n\n* Update tests to use syntax sugar",
+          "timestamp": "2026-04-02T10:19:13+02:00",
+          "tree_id": "92ec5c7bdf6a12eb47d31f38322420645d44901d",
+          "url": "https://github.com/cls-python/cosy-luigi/commit/9ed793f8f3af65b0307de71539502c87306df4e6"
+        },
+        "date": 1775118016810,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.16959112262802975,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007900994232102367",
+            "extra": "mean: 5.896535057400001 sec\nrounds: 5"
           }
         ]
       }
