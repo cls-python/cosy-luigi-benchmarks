@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774864975601,
+  "lastUpdate": 1775116915662,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -236,6 +236,33 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.042452284886531515",
             "extra": "mean: 4.678723311599997 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "cls-python",
+            "username": "cls-python"
+          },
+          "committer": {
+            "name": "cls-python",
+            "username": "cls-python"
+          },
+          "id": "89351e80d20cea358fb4f14cc41219425b2675e3",
+          "message": "Add two more examples, Add syntactic sugar for defining repositories",
+          "timestamp": "2026-03-30T10:02:09Z",
+          "url": "https://github.com/cls-python/cosy-luigi/pull/2/commits/89351e80d20cea358fb4f14cc41219425b2675e3"
+        },
+        "date": 1775116915493,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.17768145918262124,
+            "unit": "iter/sec",
+            "range": "stddev: 0.05182530154130665",
+            "extra": "mean: 5.628049232600001 sec\nrounds: 5"
           }
         ]
       }
