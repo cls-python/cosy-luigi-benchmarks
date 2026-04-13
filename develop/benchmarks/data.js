@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776100242962,
+  "lastUpdate": 1776100602711,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -483,6 +483,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.008973499182957834",
             "extra": "mean: 1.487454025800001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16308584+Jekannadar@users.noreply.github.com",
+            "name": "Constantin Chaumet",
+            "username": "Jekannadar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4cf1495bb2a1a5efa1695e0fc771192541d7ad88",
+          "message": "Add option to mark a CoSyLuigiTaskParameter as unique across all prior tasks (#3)\n\n* Add support for adding unique constrains on TaskParameters, Refactor src folder structure\n\n* Run formatting pass\n\n* Fix type-checking\n\n* Add tests for new feature\n\n* Format with ruff\n\n* bugfix: no variance in ml blood sugar\n\n* bugfix: benchmark imports\n\n* Additional speedups and safety\n\n* Fix benchmark regression, realize 3x performance speedup\n\n* Format with ruff\n\n* Pytest benchmarks alerts are inverted (smh)",
+          "timestamp": "2026-04-13T19:16:08+02:00",
+          "tree_id": "a41e880647d760d1fb75def0552b481fb6b5f905",
+          "url": "https://github.com/cls-python/cosy-luigi/commit/4cf1495bb2a1a5efa1695e0fc771192541d7ad88"
+        },
+        "date": 1776100602296,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.655063844135017,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009349557267338666",
+            "extra": "mean: 1.5265687595999993 sec\nrounds: 5"
           }
         ]
       }
