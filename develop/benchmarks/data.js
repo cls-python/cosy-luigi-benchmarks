@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776105215509,
+  "lastUpdate": 1776105393299,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -541,6 +541,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.030046904552745064",
             "extra": "mean: 1.5006330137999981 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16308584+Jekannadar@users.noreply.github.com",
+            "name": "Constantin Chaumet",
+            "username": "Jekannadar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "800448db738919d0758e2e475e02a8ce28bb2873",
+          "message": "Update benchmark workflow to omit fails based on performance (#4)",
+          "timestamp": "2026-04-13T20:36:01+02:00",
+          "tree_id": "fb2d1682225b4217ea639dd02e7653f358ebcde8",
+          "url": "https://github.com/cls-python/cosy-luigi/commit/800448db738919d0758e2e475e02a8ce28bb2873"
+        },
+        "date": 1776105392879,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.807110091458298,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005971107106972663",
+            "extra": "mean: 1.2389883494000002 sec\nrounds: 5"
           }
         ]
       }
