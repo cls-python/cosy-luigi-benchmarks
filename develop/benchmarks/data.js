@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776098359434,
+  "lastUpdate": 1776100242962,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -456,6 +456,33 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.033524791798773636",
             "extra": "mean: 1.513183770799999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "cls-python",
+            "username": "cls-python"
+          },
+          "committer": {
+            "name": "cls-python",
+            "username": "cls-python"
+          },
+          "id": "de06a204e9be95fdb6066ef7dd6a47f4f9c62d47",
+          "message": "Add option to mark a CoSyLuigiTaskParameter as unique across all prior tasks",
+          "timestamp": "2026-04-13T13:31:03Z",
+          "url": "https://github.com/cls-python/cosy-luigi/pull/3/commits/de06a204e9be95fdb6066ef7dd6a47f4f9c62d47"
+        },
+        "date": 1776100242480,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.6722896860372995,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008973499182957834",
+            "extra": "mean: 1.487454025800001 sec\nrounds: 5"
           }
         ]
       }
