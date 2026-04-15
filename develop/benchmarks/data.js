@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776244435025,
+  "lastUpdate": 1776244632915,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -657,6 +657,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012672805873903749",
             "extra": "mean: 1.5261816490000002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16308584+Jekannadar@users.noreply.github.com",
+            "name": "Constantin Chaumet",
+            "username": "Jekannadar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ba8bcaf9528487c62af7329ef39baeb6f2624535",
+          "message": "Update README.md to show coverage for main and develop (#6)",
+          "timestamp": "2026-04-15T11:16:40+02:00",
+          "tree_id": "fa993fd60431e437279ff7f18531d4e10e1351d6",
+          "url": "https://github.com/cls-python/cosy-luigi/commit/ba8bcaf9528487c62af7329ef39baeb6f2624535"
+        },
+        "date": 1776244632458,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.6750131938281353,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011542858775643934",
+            "extra": "mean: 1.4814525244000039 sec\nrounds: 5"
           }
         ]
       }
