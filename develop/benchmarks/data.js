@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776242604801,
+  "lastUpdate": 1776242839846,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -599,6 +599,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.018988513015546844",
             "extra": "mean: 1.2484651090000027 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16308584+Jekannadar@users.noreply.github.com",
+            "name": "Constantin Chaumet",
+            "username": "Jekannadar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "faf9ae3ef5aeaa6c017d45e08f949c863b083185",
+          "message": "Update ml_blood_sugar example to provide better code guidelines (#5)",
+          "timestamp": "2026-04-15T10:46:40+02:00",
+          "tree_id": "a19b0be3dd122f049224c13db9ec575b13cb8f32",
+          "url": "https://github.com/cls-python/cosy-luigi/commit/faf9ae3ef5aeaa6c017d45e08f949c863b083185"
+        },
+        "date": 1776242839328,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.6865290937185364,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006018541497483823",
+            "extra": "mean: 1.4566025084000018 sec\nrounds: 5"
           }
         ]
       }
