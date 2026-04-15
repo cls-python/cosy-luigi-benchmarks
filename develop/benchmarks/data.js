@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776105393299,
+  "lastUpdate": 1776242604801,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -572,6 +572,33 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.005971107106972663",
             "extra": "mean: 1.2389883494000002 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "cls-python",
+            "username": "cls-python"
+          },
+          "committer": {
+            "name": "cls-python",
+            "username": "cls-python"
+          },
+          "id": "e839b15a3fa714e966ca710256704c667488c224",
+          "message": "Update ml_blood_sugar example to provide better code guidelines",
+          "timestamp": "2026-04-13T18:36:05Z",
+          "url": "https://github.com/cls-python/cosy-luigi/pull/5/commits/e839b15a3fa714e966ca710256704c667488c224"
+        },
+        "date": 1776242604473,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.8009835379388226,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018988513015546844",
+            "extra": "mean: 1.2484651090000027 sec\nrounds: 5"
           }
         ]
       }
