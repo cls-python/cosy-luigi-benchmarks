@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776431033584,
+  "lastUpdate": 1776431523093,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -823,6 +823,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.005828576513415856",
             "extra": "mean: 1.2518406815999996 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16308584+Jekannadar@users.noreply.github.com",
+            "name": "Constantin Chaumet",
+            "username": "Jekannadar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "572209d699ce0c04ee0264f0e7b6036e7fa07e4f",
+          "message": "Remove benchmark MockTargets (#7)\n\n* Wrap MockTargets in benchmark in dicts\n\n* Remove unused subclass hook\n\n* Benchmark does not require dicts at all (no scheduling)\n\n* Format source\n\n* Update workflow to not push commits made in PRs",
+          "timestamp": "2026-04-17T15:11:32+02:00",
+          "tree_id": "d77901f4d48812c86ce3cbda6412dedd366153a1",
+          "url": "https://github.com/cls-python/cosy-luigi/commit/572209d699ce0c04ee0264f0e7b6036e7fa07e4f"
+        },
+        "date": 1776431522842,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.6666750565500287,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015017655365426945",
+            "extra": "mean: 1.499981122999999 sec\nrounds: 5"
           }
         ]
       }
