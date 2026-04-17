@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776430579539,
+  "lastUpdate": 1776431033584,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -796,6 +796,33 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.008257711944939388",
             "extra": "mean: 1.4777556397999987 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "cls-python",
+            "username": "cls-python"
+          },
+          "committer": {
+            "name": "cls-python",
+            "username": "cls-python"
+          },
+          "id": "bf3b72c50599108cbd86db7ad00dccc82ad847e1",
+          "message": "Remove benchmark MockTargets",
+          "timestamp": "2026-04-15T09:57:55Z",
+          "url": "https://github.com/cls-python/cosy-luigi/pull/7/commits/bf3b72c50599108cbd86db7ad00dccc82ad847e1"
+        },
+        "date": 1776431033160,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.7988236959369961,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005828576513415856",
+            "extra": "mean: 1.2518406815999996 sec\nrounds: 5"
           }
         ]
       }
