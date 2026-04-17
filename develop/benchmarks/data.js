@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776430298234,
+  "lastUpdate": 1776430525145,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -742,6 +742,33 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.010431442641061823",
             "extra": "mean: 1.5013273754000012 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "cls-python",
+            "username": "cls-python"
+          },
+          "committer": {
+            "name": "cls-python",
+            "username": "cls-python"
+          },
+          "id": "e2662b111fee561c9eb3e1be07603981420e7202",
+          "message": "Update benchmark MockTargets to correctly use dicts",
+          "timestamp": "2026-04-15T09:57:55Z",
+          "url": "https://github.com/cls-python/cosy-luigi/pull/7/commits/e2662b111fee561c9eb3e1be07603981420e7202"
+        },
+        "date": 1776430524678,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.6665874495030458,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011162966629791203",
+            "extra": "mean: 1.5001782598000006 sec\nrounds: 5"
           }
         ]
       }
