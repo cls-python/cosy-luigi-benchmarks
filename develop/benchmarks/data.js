@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776431523093,
+  "lastUpdate": 1777531809883,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -854,6 +854,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.015017655365426945",
             "extra": "mean: 1.499981122999999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16308584+Jekannadar@users.noreply.github.com",
+            "name": "Constantin Chaumet",
+            "username": "Jekannadar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8922d3a42b287edfa5ca3e9416a92f0b034fc878",
+          "message": "Update dependabot.yml to fix refactoring error (#8)",
+          "timestamp": "2026-04-30T08:49:36+02:00",
+          "tree_id": "71d8bb1115baf5aa2259a71f2007c82746caedcf",
+          "url": "https://github.com/cls-python/cosy-luigi/commit/8922d3a42b287edfa5ca3e9416a92f0b034fc878"
+        },
+        "date": 1777531809447,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.6642739604523955,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012458344723092943",
+            "extra": "mean: 1.505402980599996 sec\nrounds: 5"
           }
         ]
       }
