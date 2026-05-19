@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777540696699,
+  "lastUpdate": 1779199631082,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -947,6 +947,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.013068131550962335",
             "extra": "mean: 1.5758336676000055 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16308584+Jekannadar@users.noreply.github.com",
+            "name": "Constantin Chaumet",
+            "username": "Jekannadar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "147cc6379bf42b84908b61ac2a3d5cfc209b4340",
+          "message": "Account for output file names in task ids (#11)\n\n* Account for output file names in task ids, which fixes caching\n\n* Reformat with ruff\n\n* Add test which highlights issue of \"shading\" and confirms it is fixed\n\n* Remove unneeded lines",
+          "timestamp": "2026-05-19T16:06:39+02:00",
+          "tree_id": "ece11fb7fe250de15fdc9daeda8367eccb677cad",
+          "url": "https://github.com/cls-python/cosy-luigi/commit/147cc6379bf42b84908b61ac2a3d5cfc209b4340"
+        },
+        "date": 1779199630923,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.74251075106933,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010308902030508453",
+            "extra": "mean: 1.3467818460000018 sec\nrounds: 5"
           }
         ]
       }
