@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779199631082,
+  "lastUpdate": 1779286406105,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -978,6 +978,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.010308902030508453",
             "extra": "mean: 1.3467818460000018 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16308584+Jekannadar@users.noreply.github.com",
+            "name": "Constantin Chaumet",
+            "username": "Jekannadar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1da644ce331c1196e241cec1a0e5d68a09fa3d60",
+          "message": "Switch docstyle to google style, Improve documentation generation (#12)\n\n* Switch docstyle to google style, Improve documentation generation\n\n* Fix type information for new docs",
+          "timestamp": "2026-05-20T16:12:39+02:00",
+          "tree_id": "705fe32282d5e6d456ec55715edaa62718717699",
+          "url": "https://github.com/cls-python/cosy-luigi/commit/1da644ce331c1196e241cec1a0e5d68a09fa3d60"
+        },
+        "date": 1779286405872,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.7433050094486761,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024535297685485454",
+            "extra": "mean: 1.345342742599999 sec\nrounds: 5"
           }
         ]
       }
