@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779286406105,
+  "lastUpdate": 1780323051225,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -1009,6 +1009,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.024535297685485454",
             "extra": "mean: 1.345342742599999 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16308584+Jekannadar@users.noreply.github.com",
+            "name": "Constantin Chaumet",
+            "username": "Jekannadar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "554a79957fb8be98fcb3b2ebdc5464dbd9f34fb2",
+          "message": "Add documentation for all files (#13)\n\n* Add documentation for CoSyLuigiTaskParameter and CoSyLuigiTask\n\n* Finish documentation for combinatorics.py and traversals.py\n\n* Finish documentation for remainder of files",
+          "timestamp": "2026-06-01T16:10:18+02:00",
+          "tree_id": "4ac6dfec11f278e261e465b1c43d697912e1c356",
+          "url": "https://github.com/cls-python/cosy-luigi/commit/554a79957fb8be98fcb3b2ebdc5464dbd9f34fb2"
+        },
+        "date": 1780323050967,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.7397660051061291,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012304208010493221",
+            "extra": "mean: 1.3517787964000008 sec\nrounds: 5"
           }
         ]
       }
