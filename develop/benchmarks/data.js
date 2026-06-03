@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780323051225,
+  "lastUpdate": 1780494849643,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -1040,6 +1040,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012304208010493221",
             "extra": "mean: 1.3517787964000008 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16308584+Jekannadar@users.noreply.github.com",
+            "name": "Constantin Chaumet",
+            "username": "Jekannadar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9a759d0f07ea5fd86b44669dc62ae33ed5f2b734",
+          "message": "Bump cosy version to 0.0.1.dev29 (#14)\n\n* Bump cosy version to 0.0.1.dev29, Adds visualization feature\n\n* Format",
+          "timestamp": "2026-06-03T15:53:37+02:00",
+          "tree_id": "aaf51b7067e2277acee2f7ae86611c2af7fbacd7",
+          "url": "https://github.com/cls-python/cosy-luigi/commit/9a759d0f07ea5fd86b44669dc62ae33ed5f2b734"
+        },
+        "date": 1780494849359,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.7458511007720171,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026800930837954234",
+            "extra": "mean: 1.340750183199995 sec\nrounds: 5"
           }
         ]
       }
