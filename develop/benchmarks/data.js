@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783424416899,
+  "lastUpdate": 1783424638733,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -1102,6 +1102,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0112329502963666",
             "extra": "mean: 1.5481376979999992 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "93990320be63ce243b59df76a10b77a1e596c1e9",
+          "message": "Bump codecov/codecov-action from 6 to 7 (#15)\n\nBumps [codecov/codecov-action](https://github.com/codecov/codecov-action) from 6 to 7.\n- [Release notes](https://github.com/codecov/codecov-action/releases)\n- [Changelog](https://github.com/codecov/codecov-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/codecov/codecov-action/compare/v6...v7)\n\n---\nupdated-dependencies:\n- dependency-name: codecov/codecov-action\n  dependency-version: '7'\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-07-07T13:43:28+02:00",
+          "tree_id": "19547127972cb6c306a6d9252f6960f49bfd4295",
+          "url": "https://github.com/cls-python/cosy-luigi/commit/93990320be63ce243b59df76a10b77a1e596c1e9"
+        },
+        "date": 1783424638489,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.6638529947008243,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008475270702951928",
+            "extra": "mean: 1.5063575942000014 sec\nrounds: 5"
           }
         ]
       }
