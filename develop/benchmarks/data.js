@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783424638733,
+  "lastUpdate": 1786149788551,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -1133,6 +1133,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.008475270702951928",
             "extra": "mean: 1.5063575942000014 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16308584+Jekannadar@users.noreply.github.com",
+            "name": "Constantin Chaumet",
+            "username": "Jekannadar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ef347f74feea25710af01c2ed97c49dfa7bb7f20",
+          "message": "Fix flatten not resolving abstractness on variant expansion (#18)\n\nBug caused because flatten relied on the output of variant expansion already being flat.",
+          "timestamp": "2026-08-08T02:42:36+02:00",
+          "tree_id": "a60c2949d2c5993ea0dfd7ef2bef199320ccecc0",
+          "url": "https://github.com/cls-python/cosy-luigi/commit/ef347f74feea25710af01c2ed97c49dfa7bb7f20"
+        },
+        "date": 1786149788181,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.7214385183013057,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009431808213951462",
+            "extra": "mean: 1.386119502400001 sec\nrounds: 5"
           }
         ]
       }
