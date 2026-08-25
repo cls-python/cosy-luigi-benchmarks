@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786149788551,
+  "lastUpdate": 1787701081239,
   "repoUrl": "https://github.com/cls-python/cosy-luigi",
   "entries": {
     "Benchmark cosy-luigi": [
@@ -1164,6 +1164,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.009431808213951462",
             "extra": "mean: 1.386119502400001 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f38f3054028b3d6075027da313e4343c1db86556",
+          "message": "Bump actions/setup-python from 6 to 7 (#17)\n\nBumps [actions/setup-python](https://github.com/actions/setup-python) from 6 to 7.\n- [Release notes](https://github.com/actions/setup-python/releases)\n- [Commits](https://github.com/actions/setup-python/compare/v6...v7)\n\n---\nupdated-dependencies:\n- dependency-name: actions/setup-python\n  dependency-version: '7'\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-26T01:37:31+02:00",
+          "tree_id": "ac6f866d162aa4a4b68ab29caceea2bf8a1e48c3",
+          "url": "https://github.com/cls-python/cosy-luigi/commit/f38f3054028b3d6075027da313e4343c1db86556"
+        },
+        "date": 1787701080827,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_benchmark_chain_100.py::test_benchmark_chain_creation",
+            "value": 0.6398438158649206,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007994790810813545",
+            "extra": "mean: 1.562881402000005 sec\nrounds: 5"
           }
         ]
       }
